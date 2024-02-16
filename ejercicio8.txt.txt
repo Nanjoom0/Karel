@@ -1,0 +1,30 @@
+class program {
+   
+        // TODO poner codigo aqui
+        void turnringht() {
+ turnleft();
+  turnleft();
+  turnleft();
+}
+void MuroDerecho(){
+if(rightIsBlocked && frontIsClear){
+move();
+}
+if(rightIsBlocked && frontIsBlocked){
+ turnleft();
+
+}
+if(rightIsClear){
+turnringht();
+move();
+}
+}
+
+
+program(){
+while(notNextToABeeper){
+MuroDerecho();
+       }
+        turnoff();
+    }
+}

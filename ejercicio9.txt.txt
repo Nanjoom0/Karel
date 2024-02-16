@@ -1,0 +1,15 @@
+class program {
+    
+        // TODO poner codigo aqui
+        void turnringth(n)
+        {
+        iterate(succ(n))
+        turnleft();
+        
+        program(){
+        turnringth(1);
+        }
+        
+        turnoff()
+    }
+}

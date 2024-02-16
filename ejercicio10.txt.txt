@@ -1,0 +1,33 @@
+class program {
+   
+        // TODO poner codigo aqui
+        void turnright()
+        {
+        iterate(3)
+        turnleft();
+        }
+        void mueve(n){
+        iterate(succ(succ(n))){
+        if(frontIsBlocked)
+        {
+        turnleft();
+        move();
+         turnright();
+         move();
+          turnright();
+          move();
+          turnleft();
+          }
+          else
+          move();
+          }
+          iterate(pred(pred(n)))
+          putbeeper();
+          }
+       
+        
+        program (){
+        mueve(5);
+        turnoff();
+    }
+}
